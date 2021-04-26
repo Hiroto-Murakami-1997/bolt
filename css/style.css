@@ -267,6 +267,9 @@ body {
 
 .footer {
   background-color: #74cfae;
+}
+
+.footer__inner {
   padding-top: 20px;
   padding-bottom: 25px;
 }
