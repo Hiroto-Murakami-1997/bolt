@@ -19,11 +19,16 @@ body {
 .linkButton a {
   text-decoration: none;
   color: #fff;
+  transition: 0.3s;
 }
 
 .linkButton a:hover {
   transition: 0.3s;
   color: #333;
+}
+
+.main {
+  padding-top: 80px;
 }
 /* header */
 
@@ -35,19 +40,18 @@ body {
 }
 
 .header__inner {
-  display: flex;
-  justify-content: space-between;
   padding: 15px;
 }
 
 .header__bolt {
+  float: left;
   color: #4e4e4e;
   font-size: 50px;
 }
 
 .header__contact {
+  float: right;
   font-size: 12px;
-  line-height: 22px;
   padding: 14px 12px;
   background-color: #74cfae;
 }
@@ -92,18 +96,13 @@ body {
 
 .description__inner {
   padding-top: 50px;
-}
-
-.description__inner__contents {
   display: flex;
-  align-items: top;
-  margin: 0 auto;
-  box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 .description__message {
   color: #fff;
-  padding-left: 70px;
+  vertical-align: top;
 }
 
 .description__message__title {
@@ -113,12 +112,15 @@ body {
 }
 
 .description__message__text {
-  padding: 35px;
+  padding-top: 35px;
   font-size: 20px;
   text-align: center;
 }
 
 /* article */
+.article {
+  background-color: #f2f2f2;
+}
 
 .article__inner {
   padding: 60px;
@@ -132,6 +134,7 @@ body {
   padding-bottom: 40px;
 }
 
+
 .article__gallary {
   display: flex;
   flex-wrap: wrap;
@@ -140,6 +143,7 @@ body {
 .article__image {
   margin-left: 100px;
   opacity: 0.7;
+  transition: 0.3s; 
 }
 
 .article__image:hover {
@@ -185,7 +189,6 @@ body {
   display: table-cell;
   vertical-align: top;
   font-size: 12px;
-  line-height: 20px;
   background-color: #74cfae;
   padding: 14px 20px;
 }
@@ -231,6 +234,10 @@ body {
 
 .skills__img:first-child {
   margin-left: 0;
+}
+
+.skills__img__caption {
+  padding-top: 15px;
 }
 
 /* nav */
