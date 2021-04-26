@@ -15,6 +15,16 @@ body {
   font-family: 'Lato', sans-serif;
   color: #333;
 }
+
+.linkButton a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkButton a:hover {
+  transition: 0.3s;
+  color: #333;
+}
 /* header */
 
 .header {
@@ -42,16 +52,6 @@ body {
   background-color: #74cfae;
 }
 
-.header__contact a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.header__contact :hover {
-  transition: 0.3s;
-  color: #333;
-}
-
 /* theme */
 
 .theme {
@@ -62,12 +62,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .theme__inner__message {
   text-align: center;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  
 }
 
 .theme__inner__message h1 {
@@ -117,11 +118,11 @@ body {
   text-align: center;
 }
 
-/* srticle */
+/* article */
 
 .article__inner {
   padding: 60px;
-  padding-bottom: 0;
+  padding-bottom: 70px;
 }
 
 .article__intro {
@@ -168,7 +169,6 @@ body {
 
 .article__message__contents {
   padding-top: 90px;
-  padding-bottom: 70px;
   display: table;
   text-align: center;
   margin: 0 auto;
@@ -181,19 +181,23 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.article__message__email {
-  margin-left: 90px;
-}
-
-.article__message__emailMe{
+.article__message__emailMe {
   display: table-cell;
   vertical-align: top;
   font-size: 12px;
   line-height: 20px;
   background-color: #74cfae;
-  color: #fff;
   padding: 14px 20px;
+}
+
+.article__message__contents a {
+  display: inline-block;
   margin-left: 90px;
+}
+
+.linkButton a:hover {
+  color: #333;
+  transition: 0.3s;
 }
 
 /* skills */
