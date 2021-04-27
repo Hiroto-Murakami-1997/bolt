@@ -11,6 +11,7 @@
   margin: 0 auto;
   max-width: 1100px;
 }
+
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -23,13 +24,13 @@ body {
 }
 
 .linkButton a:hover {
-  transition: 0.3s;
   color: #333;
 }
 
 .main {
   padding-top: 80px;
 }
+
 /* header */
 
 .header {
@@ -40,7 +41,8 @@ body {
 }
 
 .header__inner {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header__bolt {
@@ -112,7 +114,7 @@ body {
 }
 
 .description__message__text {
-  padding-top: 35px;
+  margin-top: 35px;
   font-size: 20px;
   text-align: center;
 }
@@ -172,25 +174,25 @@ body {
 }
 
 .article__message__contents {
-  padding-top: 90px;
-  display: table;
+  margin: 90px auto 0 auto;
+  font-size: 0;
   text-align: center;
-  margin: 0 auto;
 }
 
 .article__message__text {
-  display: table-cell;
-  vertical-align: top;
-  text-align: center;
   font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
 }
 
 .article__message__emailMe {
-  display: table-cell;
-  vertical-align: top;
+  display: inline-block;
   font-size: 12px;
   background-color: #74cfae;
   padding: 14px 20px;
+  vertical-align: top;
 }
 
 .article__message__contents a {
@@ -219,11 +221,12 @@ body {
 
 
 .skills__message {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .skills__display {
   margin-top: 70px;
+  font-size: 0;
 }
 
 .skills__img {
@@ -237,7 +240,8 @@ body {
 }
 
 .skills__img__caption {
-  padding-top: 15px;
+  
+  margin-top: 15px;
 }
 
 /* nav */
@@ -252,22 +256,19 @@ body {
   padding-bottom: 200px;
 }
 
-.nav__sns__list {
+.nav a {
   display: inline-block;
   width: 185px;
   font-size: 40px;
   padding: 25px;
   box-sizing: border-box;
   cursor: pointer;
-}
-
-.nav__sns__list a {
   color: #74cfae;
+  transition: 0.3s;
 }
 
-.nav__sns__list:hover {
+.nav a:hover {
   background-color: #fff;
-  transition: 0.3s;
 }
 
 /* footer */
