@@ -75,17 +75,15 @@
 
   .theme__inner__message {
     text-align: center;
-    
   }
 
-  .theme__inner__message h1 {
+  .theme__bolt {
     font-size: 90px;
     font-weight: 700;
     color: #74cfae;
-    
   }
 
-  .theme__inner__message h2 {
+  .theme__text {
     margin-top: 20px;
     font-size: 30px;
     color: #c0c0c0;
@@ -99,6 +97,7 @@
 
   .description__inner {
     padding-top: 50px;
+    padding-left: 200x;
     display: flex;
     justify-content: space-evenly;
   }
@@ -106,6 +105,7 @@
   .description__message {
     color: #fff;
     vertical-align: top;
+    width: 680px;
   }
 
   .description__message__title {
@@ -187,6 +187,7 @@
     font-size: 16px;
     text-align: center;
     vertical-align: top;
+    width: 500px;
   }
 
   .article__message__emailMe {
@@ -253,12 +254,14 @@
   }
 
   .nav__inner {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
   }
 
-  .nav a {
+  .nav__sns__list a {
     display: inline-block;
     width: 185px;
     font-size: 40px;
@@ -269,7 +272,7 @@
     transition: 0.3s;
   }
 
-  .nav a:hover {
+  .nav__sns__list :hover {
     background-color: #fff;
   }
 
@@ -288,6 +291,3 @@
     float: right;
     color: #fff;
   }
-
-
-
