@@ -18,6 +18,10 @@
     color: #333;
   }
 
+  .font__railWay {
+    font-family: 'Raleway', sans-serif;
+  }
+
   .linkButton a {
     text-decoration: none;
     color: #fff;
@@ -97,7 +101,6 @@
 
   .description__inner {
     padding-top: 50px;
-    padding-left: 200x;
     display: flex;
     justify-content: space-evenly;
   }
@@ -111,7 +114,6 @@
   .description__message__title {
     font-size: 24px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
   }
 
   .description__message__text {
@@ -126,12 +128,11 @@
   }
 
   .article__inner {
-    padding: 60px;
+    padding-top: 60px;
     padding-bottom: 70px;
   }
 
   .article__intro {
-    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     text-align: center;
   }
@@ -142,6 +143,10 @@
     flex-wrap: wrap;
     font-size: 0;
     margin-top: 40px;
+  }
+
+  .article__gallary a {
+    display: inline-block;
   }
 
   .article__image {
@@ -182,7 +187,6 @@
   }
 
   .article__message__text {
-    font-family: 'Raleway', sans-serif;
     display: inline-block;
     font-size: 16px;
     text-align: center;
@@ -254,15 +258,16 @@
   }
 
   .nav__inner {
-    display: flex;
-    justify-content: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0;
   }
 
   .nav__sns__list a {
     display: inline-block;
+    text-align: center;
     width: 185px;
     font-size: 40px;
     padding: 25px;
