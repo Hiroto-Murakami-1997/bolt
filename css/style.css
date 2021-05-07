@@ -414,4 +414,8 @@
     text-align: center;
   }
 
+  .nav__sns__list a {
+    width: 100%;
+  }
+
 }
