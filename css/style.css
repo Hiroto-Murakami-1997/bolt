@@ -63,6 +63,10 @@
     background-color: #74cfae;
   }
 
+  .header__menuBar {
+    display: none;
+  }
+
   /* theme */
 
   .theme {
@@ -160,7 +164,7 @@
     opacity: 1;
   }
 
-  .article__image:nth-child(3n+1){
+  .article__image:nth-child(3n+1) {
     margin-left: 0;
     margin-top: 80px;
   }
@@ -222,7 +226,6 @@
     padding-top: 70px;
     padding-bottom: 100px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
     color: #fff;
   }
 
@@ -262,7 +265,6 @@
     padding-bottom: 200px;
     display: flex;
     justify-content: center;
-    font-size: 0;
   }
 
   .nav__sns__list a {
@@ -296,3 +298,120 @@
     float: right;
     color: #fff;
   }
+
+  /* TB-------------------------------- */
+ @media  screen and (max-width: 1199px) {
+  /* general */
+  .inner {
+    max-width: 97%;
+  }
+
+  /* section */
+
+  .description__inner {
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .description__message {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* article */
+
+  .article__gallary{
+    display: block;
+    flex-wrap: nowrap;
+  }
+
+  .article__image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .article__image:nth-child(1) {
+    margin-top: 40px;
+  }
+
+  .article__image:nth-child(n) {
+    margin: 0 auto;
+  }
+
+  .article__image:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .article__message__contents {
+    margin-top: 80px;
+  }
+
+  .article__message__contents a {
+    display: inline-block;
+    margin: 40px auto 0 auto;
+  }
+
+  .article__message__text {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .article__message__emailMe {
+    display: block;
+  }
+
+
+  /* skills */
+
+  .skills__img {
+    display: block;
+    margin: 0;
+    margin-top: 88px;
+  }
+
+  .skills__img:first-child {
+    margin: 0;
+  }
+
+}
+
+/* SP-------------------------------- */
+
+@media screen and (max-width: 767px) {
+
+  /* headedr */
+
+  .header__contact {
+    display: none;
+  }
+
+  .header__menuBar {
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  /* theme */
+
+  .theme__inner {
+    padding-top: 160px;
+    padding-bottom: 130px;
+  }
+
+  /* nav */
+  .nav__inner {
+    padding: 50px 15px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav__sns__list {
+    text-align: center;
+  }
+
+}
